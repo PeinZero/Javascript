@@ -28,14 +28,21 @@
             <caption>progress</caption>
           </details> 
     </div>
+    <button class="btnn">
+        click me
+    </button>
     <!-- add java scrip here !! -->
     <!-- write in scripts if using js in html file -->
-    <!-- <script>
-        alert("hey man this is just an alert.")
-    </script> -->
+    <script>
+
+        document.querySelector(".btnn").addEventListener("click" , () =>{
+           window.open('temp2.html','_blank')
+        })
+        //alert("hey man this is just an alert.")
+    </script>
 
     <!-- calling js file -->
-    <script src = "jsfile.js" > </script>
+    <!-- <script src = "jsfile.js" > </script> -->
     <!-- <script src = "promises.js" > </script> -->
     <!-- <script src = "callbacks.js" > </script> -->
     

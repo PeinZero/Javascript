@@ -1,5 +1,5 @@
 // CONSOLE 
-console.log("using console.log\n");
+// console.log("using console.log\n");
 // console.clear();
 // console.error("fucking hell ! this is a error");
 // console.warn("chil scenes dw just a warning");
